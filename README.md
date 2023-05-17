@@ -5,4 +5,4 @@ _______________________
 I tried to make this as short as possible as a challenge and now my brain hurts - do I know how it works now? absolutely not.
 _______________________
 
-requires solmate
+requires solmate...prob would've been fine w/ the one that remix automatically adds tho
