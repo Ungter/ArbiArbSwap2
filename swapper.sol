@@ -1,6 +1,6 @@
 pragma solidity ^0.8.0;
 import {IUniswapV2Pair} from "./interfaces/IUniswapV2Pair.sol";
-import {ERC20, SafeTransferLib} from "solmate/utils/SafeTransferLib.sol";
+import {ERC20, SafeTransferLib} from "./solmate/utils/SafeTransferLib.sol";
 import {UnsafeUnilib} from "./lib/UnsafeUnilib.sol";
 
 abstract contract BaseSwapperV2 {
