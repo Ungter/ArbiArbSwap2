@@ -7,7 +7,8 @@ import {UnsafeUnilib} from "./lib/UnsafeUnilib.sol";
 
 abstract contract BaseSwapperV2 {
     using SafeTransferLib for ERC20;
-    address constant WETH = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
+    // Address is different on different chains
+    address constant WETH = PLACE_HOLDER;
 
     function execute(address bAsset, uint256 bAmt, address rAsset, uint256 rAmt, bytes memory eData) internal virtual {}
 
